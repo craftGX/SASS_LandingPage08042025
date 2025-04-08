@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  color: $text-color;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
